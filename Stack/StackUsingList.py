@@ -17,7 +17,7 @@ print('Pop items')
 while msg == 'y':
     if len(stack) >= 1:
         print(stack.pop())
-        msg = input('Want to pop items in stack: press y/n ? ')
+        msg = input('Want to pop items from stack: press y/n ? ')
     else:
         print('Stack is empty')
         msg = 'n'
